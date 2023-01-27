@@ -1,0 +1,19 @@
+
+@import './custom';
+@import './sass/components/library';
+@import './sass/components/mixins';
+@import './sass/components/Animations';
+@import './sass/components/Buttons';
+@import './sass/components/Typography';
+
+// SECTION IMPORT 
+
+@import './sass/sections/nav';
+@import './sass/sections/Header';
+@import './sass/sections/Skills';
+@import './sass/sections/Photo';
+@import './sass/sections/services';
+@import './sass/sections/statements';
+@import './sass/sections/contacts';
+@import './sass/sections/footer';
+@import './sass/sections/Responsive';

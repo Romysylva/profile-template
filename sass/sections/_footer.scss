@@ -1,0 +1,31 @@
+#Footer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    .social {
+        display: flex;
+        justify-content: space-between;
+        i:hover {
+            &:nth-child(1) {
+                cursor: pointer;
+                color: $success-c;
+                transition: 0.5s ease;
+                font-size: 2rem;
+            }
+        
+        }
+        i {
+            transition: 0.5s ease;
+
+        }
+    }
+    p {
+        letter-spacing: 1.5;
+        a {
+            color: $success-c;
+        }
+    }
+
+}

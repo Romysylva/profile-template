@@ -1,0 +1,75 @@
+@media (max-width: 1024px ) {
+    #Nav-with-Logo {
+        display: none;
+    }
+    #Simple_Nav {
+        display: initial;
+        border-bottom: 1px solid;
+        box-shadow: 0 0 15px 2px $success-c;
+
+        .nav_links {
+            height: 100%;
+            justify-content: space-between;
+        }
+
+    }
+}
+@media (max-width: 768px) {
+    #Simple_Nav {
+        max-width: 768px;
+    }
+}
+@media (max-width: $phone) {
+    h2 {
+        text-align: center;
+    }
+
+    // NAV SECTION 
+
+    #Simple_Nav {
+        .nav_link {
+            font-size: 1rem;
+            padding: 0;
+        }
+    }
+
+    //   Services
+    #Services {
+        .card-container {
+            flex-direction: column;
+            align-items: center;
+            .card {
+            margin-top: 3rem;
+            }
+        }
+    }
+    #Photos {
+        .photo-container {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
+    }
+    #Contact {
+
+        .closebtn {
+            margin: 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 2rem;
+            color: $warning-c;
+            animation: rotate 30s linear infinite;
+            position: relative;
+            right: 0;
+            top: 50px;
+            
+        }
+    }
+    .statement{
+        h5 {
+            font-size: 1.3rem;
+        }
+        p {
+            font-size: .7rem;
+        }
+    }
+}

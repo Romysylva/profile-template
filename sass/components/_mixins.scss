@@ -1,0 +1,42 @@
+@mixin Nav_links-Hover() {
+
+    .nav_links {
+        .nav_link > a:hover,
+            .nav_link > i:hover {
+                cursor: pointer;
+                color: $success-c;
+                padding: .5rem;
+                transition: .5s ease;
+                font-weight:100;
+
+
+            
+            }
+    }
+}
+
+@mixin opac-1 {
+    @extend .opac;
+    opacity: 1;
+}
+
+@mixin Placeholder {
+    border: none;
+    border-radius: 5px;
+    &::placeholder {
+        position: relative;
+        padding-right: 0.2rem;
+    }
+}
+
+@mixin bg-img($bg-h: 250px, $bg-w: 370px) {
+    height: $bg-h;
+    width: $bg-w;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+}

@@ -1,0 +1,31 @@
+@keyframes Opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes Contact-anime {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        color: $info-c;
+        
+    }    
+    to {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    
+    }
+}

@@ -1,0 +1,31 @@
+#Services {
+
+    .card {
+        .card-header {
+            background-color: #333;
+
+        }
+        p {
+            &:not(last-child) {
+                border: 1px solid;
+            }
+        }
+        &:hover {
+            cursor: pointer;
+            @include opac-1;
+            background-color: $light-c;
+            color: $dark-c;
+            .card-header {
+                color: $light-c;
+            }
+            transition: .5s ease-in-out;
+            -webkit-transition: .5s ease-in-out;
+        
+        }
+    }
+    .card-container {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

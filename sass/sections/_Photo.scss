@@ -1,0 +1,39 @@
+#Photos {
+    .photo-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px 20px;
+
+        .photo {
+            &:nth-child(1) {
+                background: url(https://source.unsplash.com/weekly?water);
+                @include bg-img();
+            }
+            &:nth-child(2) {
+                background: url(https://source.unsplash.com/weekly?natur);
+                @include bg-img();
+            }
+            &:nth-child(3) {
+                background: url(https://source.unsplash.com/weekly?pople);
+                @include bg-img();
+            }
+            &:nth-child(4) {
+                background: url(https://source.unsplash.com/weekly?fashion);
+                @include bg-img();
+            }
+            &:nth-child(5) {
+                background: url(https://source.unsplash.com/weekly?women);
+                @include bg-img();
+            }
+            &:nth-child(6) {
+                background: url(https://source.unsplash.com/weekly?man);
+                @include bg-img();
+            }
+            &:hover {
+                filter: grayscale(0%);
+                transition: 1s ease-in-out;
+                -webkit-filter: grayscale(0%);
+}
+        }
+    }
+}

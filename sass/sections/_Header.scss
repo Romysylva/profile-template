@@ -1,0 +1,17 @@
+#Header {
+    margin-top: 2rem;    
+
+    .card {
+        color: $light-c;
+        max-width: 768px;
+        min-width: 350px;
+        border: none;
+
+        .card-body {
+            .card-title {
+                letter-spacing: 3.5px;
+                
+            }
+        }
+    }
+}
